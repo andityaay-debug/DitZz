@@ -1,4 +1,4 @@
-<!-- Ganti YOUR_USERNAME dengan username GitHub kamu -->
+<!-- Ganti andityaay-debug dengan username GitHub kamu -->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=220&section=header&text=Hi%2C%20I'm%20DitZz%20👋&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Frontend%20Developer%20from%20Indonesia%20🇮🇩&descSize=18&descAlignY=58" alt="header" />
@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile+Views&color=00c6ff&style=for-the-badge" alt="views" />
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge&logo=github&color=2c5364" alt="followers" />
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME?style=for-the-badge&logo=github&color=2c5364" alt="stars" />
+  <img src="https://komarev.com/ghpvc/?username=andityaay-debug&label=Profile+Views&color=00c6ff&style=for-the-badge" alt="views" />
+  <img src="https://img.shields.io/github/followers/andityaay-debug?style=for-the-badge&logo=github&color=2c5364" alt="followers" />
+  <img src="https://img.shields.io/github/stars/andityaay-debug?style=for-the-badge&logo=github&color=2c5364" alt="stars" />
 </p>
 
 ---
@@ -29,7 +29,7 @@
 ## 🤝 Connect with me
 
 <p align="left">
-  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
+  <a href="https://github.com/andityaay-debug"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
   <a href="https://instagram.com/YOUR_INSTAGRAM"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" /></a>
   <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
   <a href="mailto:YOUR_EMAIL@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
@@ -84,16 +84,16 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=andityaay-debug&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=andityaay-debug&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=andityaay-debug&theme=tokyonight&hide_border=true" alt="streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&row=1&column=7" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=andityaay-debug&theme=tokyonight&no-frame=true&row=1&column=7" alt="trophies" />
 </p>
 
 ---
