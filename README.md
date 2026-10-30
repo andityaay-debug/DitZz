@@ -4,27 +4,44 @@
 
 <img align="right" width="190" src="clawd.gif" alt="Clawd" />
 
-### About
+### 👋 About
 
-Hi, I'm **DitZz**, a frontend developer from Indonesia.
+Hi, I'm **DitZz**, a frontend developer from Indonesia 🇮🇩
 
 I build interfaces with TypeScript and React, and I write a lot of my code together with Claude. I also work on mobile with Flutter and on backends with Laravel and Node.js.
 
+- 🎨 Building clean, fast interfaces
+- 🤖 Pair programming with Claude
+- 🌱 Always learning something new
+- 🤝 Open to collaborate
+- ⚡ Fun fact: I think I'm funny 😄
+
 <br clear="right" />
 
-### Workflow
+### 🔄 Workflow
 
 <p align="center">
   <img src="ui-workflow.svg" alt="Workflow: idea, prompt, type-check, ship" width="100%" />
 </p>
 
-### Stack
+### 🧩 Stack
 
 <p align="center">
   <img src="ui-stack.svg" alt="Tech stack" width="100%" />
 </p>
 
-### Activity
+### 🧰 Toolbox
+
+| | |
+| :-- | :-- |
+| 💬 **Languages** | <img height="40" src="https://skillicons.dev/icons?i=ts,js,java,php,py,c,dart,bash&theme=dark" alt="languages" /> |
+| 🎨 **Frontend** | <img height="40" src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark" alt="frontend" /> |
+| 📱 **Mobile** | <img height="40" src="https://skillicons.dev/icons?i=flutter,androidstudio,kotlin&theme=dark" alt="mobile" /> |
+| ⚙️ **Backend** | <img height="40" src="https://skillicons.dev/icons?i=nodejs,laravel&theme=dark" alt="backend" /> |
+| 🗄️ **Data** | <img height="40" src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite&theme=dark" alt="data" /> |
+| 🛠️ **Tooling** | <img height="40" src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode&theme=dark" alt="tooling" /> |
+
+### 📊 Activity
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=andityaay-debug&show_icons=true&hide_border=true&bg_color=0d1117&title_color=9ac7ff&text_color=c9d1d9&icon_color=9ac7ff&count_private=true" alt="GitHub stats" />
@@ -35,7 +52,7 @@ I build interfaces with TypeScript and React, and I write a lot of my code toget
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=andityaay-debug&bg_color=0d1117&color=9ac7ff&line=9ac7ff&point=ffffff&area=true&area_color=9ac7ff&hide_border=true" alt="Contribution graph" width="100%" />
 </p>
 
-### Contact
+### 📬 Contact
 
 <p>
   <a href="https://github.com/andityaay-debug"><img src="https://img.shields.io/badge/GitHub-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
