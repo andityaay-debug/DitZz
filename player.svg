@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="900" height="310">
+<style>
+text{font-family:'Courier New',Courier,monospace;font-weight:700}
+.bounce{animation:bounce 1.6s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-34px)}}
+.blink{animation:blink 4s infinite;transform-box:fill-box;transform-origin:center}
+@keyframes blink{0%,91%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.tw{animation:tw 2.4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+.press{animation:press 1s steps(1) infinite}
+@keyframes press{0%{opacity:1}50%{opacity:0}}
+.shim{animation:shim 3s ease-in-out infinite}
+@keyframes shim{0%,100%{fill:#fff}50%{fill:#FFD60A}}
+.ground{animation:gnd 1s linear infinite}
+@keyframes gnd{to{stroke-dashoffset:-34}}
+.shadow{animation:sh 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes sh{0%,100%{transform:scaleX(1);opacity:.5}50%{transform:scaleX(.6);opacity:.25}}
+.grow{animation:grow 6s ease-out infinite;transform-box:fill-box;transform-origin:left center}
+@keyframes grow{0%{transform:scaleX(0)}25%,88%{transform:scaleX(1)}100%{transform:scaleX(0)}}</style>
+<defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#fff" opacity=".035"/></pattern></defs>
+<rect width="900" height="310" rx="16" fill="#0b0b0f"/>
+<rect x="0" y="0" width="900" height="46" rx="16" fill="#FFD60A"/><rect x="0" y="30" width="900" height="16" fill="#FFD60A"/>
+<text x="24" y="31" font-size="20" fill="#111" letter-spacing="3">PLAYER 1  ▸  DITZZ</text>
+<text x="876" y="31" font-size="16" fill="#111" text-anchor="end">● ONLINE</text>
+<rect x="30" y="68" width="200" height="200" fill="#12121a" stroke="#33333d" stroke-width="2"/>
+<g transform="translate(130,168)"><g transform="scale(0.78)"><g class="bounce">
+  <circle cx="8" cy="8" r="80" fill="#FFD60A"/>
+  <circle cx="0" cy="0" r="80" fill="#fff" stroke="#111" stroke-width="5"/>
+  <g class="blink"><ellipse cx="-27" cy="-20" rx="9" ry="15" fill="#111"/></g>
+  <g class="blink"><ellipse cx="27" cy="-24" rx="9" ry="16" fill="#111"/></g>
+  <path d="M-52 12 C-36 54 40 58 54 6 C30 34 -30 38 -52 12 Z" fill="#111"/>
+  <path d="M-60 8 q8 -7 12 4 M62 2 q-8 -7 -12 4" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+</g></g></g>
+<text x="130" y="262" font-size="13" fill="#FFD60A" text-anchor="middle" letter-spacing="3">HERO LV.??</text>
+<text x="270" y="82" font-size="16" fill="#8a8a95" letter-spacing="2">CLASS</text><text x="400" y="82" font-size="16" fill="#fff" letter-spacing="2">FRONTEND DEVELOPER</text><text x="270" y="108" font-size="16" fill="#8a8a95" letter-spacing="2">REGION</text><text x="400" y="108" font-size="16" fill="#fff" letter-spacing="2">INDONESIA</text><text x="270" y="134" font-size="16" fill="#8a8a95" letter-spacing="2">WEAPONS</text><text x="400" y="134" font-size="16" fill="#fff" letter-spacing="2">REACT · FLUTTER · LARAVEL</text><text x="270" y="160" font-size="16" fill="#8a8a95" letter-spacing="2">TITLE</text><text x="400" y="160" font-size="16" fill="#fff" letter-spacing="2">SELF-PROCLAIMED FUNNY</text><text x="270" y="210" font-size="14" fill="#c8c8d0" letter-spacing="2">CODING</text>
+<rect x="390" y="198" width="320" height="16" fill="#1b1b22" stroke="#33333d" stroke-width="2"/>
+<rect class="grow" style="animation-delay:0.0s;width:278px" x="392" y="200" width="278" height="12" fill="#3ddc84"/>
+<text x="730" y="211" font-size="14" fill="#3ddc84">88%</text><text x="270" y="236" font-size="14" fill="#c8c8d0" letter-spacing="2">COFFEE</text>
+<rect x="390" y="224" width="320" height="16" fill="#1b1b22" stroke="#33333d" stroke-width="2"/>
+<rect class="grow" style="animation-delay:0.25s;width:291px" x="392" y="226" width="291" height="12" fill="#4da3ff"/>
+<text x="730" y="237" font-size="14" fill="#4da3ff">92%</text><text x="270" y="262" font-size="14" fill="#c8c8d0" letter-spacing="2">LEARNING</text>
+<rect x="390" y="250" width="320" height="16" fill="#1b1b22" stroke="#33333d" stroke-width="2"/>
+<rect class="grow" style="animation-delay:0.5s;width:237px" x="392" y="252" width="237" height="12" fill="#FFD60A"/>
+<text x="730" y="263" font-size="14" fill="#FFD60A">75%</text><text x="270" y="288" font-size="14" fill="#c8c8d0" letter-spacing="2">FUNNY</text>
+<rect x="390" y="276" width="320" height="16" fill="#1b1b22" stroke="#33333d" stroke-width="2"/>
+<rect class="grow" style="animation-delay:0.75s;width:316px" x="392" y="278" width="316" height="12" fill="#ff4d8d"/>
+<text x="730" y="289" font-size="14" fill="#ff4d8d">100%</text>
+<rect width="900" height="310" rx="16" fill="url(#scan)"/>
+<rect x="1.5" y="1.5" width="897" height="307" rx="15" fill="none" stroke="#2a2a33" stroke-width="3"/>
+</svg>
