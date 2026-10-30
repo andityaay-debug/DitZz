@@ -1,38 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140">
 <style>
-text{font-family:'Courier New',Courier,monospace;font-weight:700}
-.bounce{animation:bounce 1.6s ease-in-out infinite}
-@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-34px)}}
+text{font-family:'Courier New',Courier,monospace;white-space:pre}
+.float{animation:float 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.spin{animation:spin 9s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.dash{animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-24}}
+.cur{animation:cur 1s steps(1) infinite}
+@keyframes cur{0%{opacity:1}50%{opacity:0}}
 .blink{animation:blink 4s infinite;transform-box:fill-box;transform-origin:center}
 @keyframes blink{0%,91%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
-.tw{animation:tw 2.4s ease-in-out infinite}
-@keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
-.press{animation:press 1s steps(1) infinite}
-@keyframes press{0%{opacity:1}50%{opacity:0}}
-.shim{animation:shim 3s ease-in-out infinite}
-@keyframes shim{0%,100%{fill:#fff}50%{fill:#FFD60A}}
-.ground{animation:gnd 1s linear infinite}
-@keyframes gnd{to{stroke-dashoffset:-34}}
-.shadow{animation:sh 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-@keyframes sh{0%,100%{transform:scaleX(1);opacity:.5}50%{transform:scaleX(.6);opacity:.25}}
-.run{animation:run 9s linear infinite}
-@keyframes run{from{transform:translateX(-60px)}to{transform:translateX(960px)}}
-.hop{animation:hop .5s ease-in-out infinite}
-@keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}</style>
-<defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#fff" opacity=".035"/></pattern></defs>
-<rect width="900" height="150" rx="16" fill="#0b0b0f"/>
-<text x="450" y="46" font-size="20" fill="#fff" text-anchor="middle" letter-spacing="3">THANKS FOR VISITING</text>
-<text x="450" y="74" font-size="15" fill="#FFD60A" text-anchor="middle" letter-spacing="3" class="press">INSERT COIN TO COLLAB</text>
-<circle class="tw" style="animation-delay:0.0s" cx="100" cy="86" r="6" fill="#FFD60A"/><circle class="tw" style="animation-delay:0.3s" cx="195" cy="86" r="6" fill="#FFD60A"/><circle class="tw" style="animation-delay:0.6s" cx="290" cy="86" r="6" fill="#FFD60A"/><circle class="tw" style="animation-delay:0.8999999999999999s" cx="385" cy="86" r="6" fill="#FFD60A"/><circle class="tw" style="animation-delay:1.2s" cx="480" cy="86" r="6" fill="#FFD60A"/><circle class="tw" style="animation-delay:1.5s" cx="575" cy="86" r="6" fill="#FFD60A"/><circle class="tw" style="animation-delay:1.7999999999999998s" cx="670" cy="86" r="6" fill="#FFD60A"/><circle class="tw" style="animation-delay:2.1s" cx="765" cy="86" r="6" fill="#FFD60A"/>
-<line x1="20" y1="124" x2="880" y2="124" stroke="#4a4a55" stroke-width="4" stroke-dasharray="20 14" class="ground"/>
-<g class="run"><g transform="translate(0,96)"><g class="hop"><g transform="scale(1)"><g transform="scale(0.3)"><g class="">
-  <circle cx="3" cy="3" r="80" fill="#FFD60A"/>
-  <circle cx="0" cy="0" r="80" fill="#fff" stroke="#111" stroke-width="5"/>
+.bounce{animation:bounce .5s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-34px)}}
+.run{animation:run 9s linear infinite}@keyframes run{from{transform:translateX(-60px)}to{transform:translateX(960px)}}.hop{animation:hop .5s ease-in-out infinite}@keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}</style>
+<defs>
+<radialGradient id="glow" cx="80%" cy="0%" r="90%"><stop offset="0" stop-color="#8ecbff" stop-opacity=".18"/><stop offset="1" stop-color="#8ecbff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".07"/></pattern>
+</defs>
+<rect width="900" height="140" rx="16" fill="#0b0d12"/>
+<rect width="900" height="140" rx="16" fill="url(#dots)"/>
+<rect width="900" height="140" rx="16" fill="url(#glow)"/>
+<text x="450" y="44" font-size="18" fill="#fff" text-anchor="middle" letter-spacing="3" font-weight="700">THANKS FOR VISITING</text>
+<text x="450" y="70" font-size="13" fill="#8ecbff" text-anchor="middle" letter-spacing="3">built with TypeScript &amp; Claude</text>
+<line x1="20" y1="120" x2="880" y2="120" stroke="#2f3646" stroke-width="4" stroke-dasharray="20 14" class="dash"/>
+<g class="run"><g transform="translate(0,92)"><g class="hop"><g transform="scale(0.3)">
+  <circle cx="3" cy="3" r="80" fill="#8ecbff"/>
+  <circle r="80" fill="#fff" stroke="#111" stroke-width="5"/>
   <g class="blink"><ellipse cx="-27" cy="-20" rx="9" ry="15" fill="#111"/></g>
   <g class="blink"><ellipse cx="27" cy="-24" rx="9" ry="16" fill="#111"/></g>
   <path d="M-52 12 C-36 54 40 58 54 6 C30 34 -30 38 -52 12 Z" fill="#111"/>
   <path d="M-60 8 q8 -7 12 4 M62 2 q-8 -7 -12 4" fill="none" stroke="#111" stroke-width="4" stroke-linecap="round"/>
-</g></g></g></g></g></g>
-<rect width="900" height="150" rx="16" fill="url(#scan)"/>
-<rect x="1.5" y="1.5" width="897" height="147" rx="15" fill="none" stroke="#2a2a33" stroke-width="3"/>
+</g></g></g></g>
+<rect x="1" y="1" width="898" height="138" rx="15" fill="none" stroke="#232834" stroke-width="2"/>
 </svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+<style>
+text{font-family:'Courier New',Courier,monospace;white-space:pre}
+.float{animation:float 4s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.spin{animation:spin 9s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.dash{animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-24}}
+.cur{animation:cur 1s steps(1) infinite}
+@keyframes cur{0%{opacity:1}50%{opacity:0}}
+.blink{animation:blink 4s infinite;transform-box:fill-box;transform-origin:center}
+@keyframes blink{0%,91%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.bounce{animation:bounce .5s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-34px)}}
+.n0{animation:p0 8s ease-out infinite;animation-delay:0s;transform-box:fill-box;transform-origin:center}@keyframes p0{0%{transform:scale(1.07);filter:brightness(1.4)}18%,100%{transform:scale(1);filter:none}}.n1{animation:p1 8s ease-out infinite;animation-delay:2s;transform-box:fill-box;transform-origin:center}@keyframes p1{0%{transform:scale(1.07);filter:brightness(1.4)}18%,100%{transform:scale(1);filter:none}}.n2{animation:p2 8s ease-out infinite;animation-delay:4s;transform-box:fill-box;transform-origin:center}@keyframes p2{0%{transform:scale(1.07);filter:brightness(1.4)}18%,100%{transform:scale(1);filter:none}}.n3{animation:p3 8s ease-out infinite;animation-delay:6s;transform-box:fill-box;transform-origin:center}@keyframes p3{0%{transform:scale(1.07);filter:brightness(1.4)}18%,100%{transform:scale(1);filter:none}}.dot{animation:dot 8s linear infinite}@keyframes dot{0%{transform:translateX(0);opacity:1}75%{transform:translateX(675px);opacity:1}85%,100%{transform:translateX(675px);opacity:0}}</style>
+<defs>
+<radialGradient id="glow" cx="80%" cy="0%" r="90%"><stop offset="0" stop-color="#8ecbff" stop-opacity=".18"/><stop offset="1" stop-color="#8ecbff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".07"/></pattern>
+</defs>
+<rect width="900" height="260" rx="16" fill="#0b0d12"/>
+<rect width="900" height="260" rx="16" fill="url(#dots)"/>
+<rect width="900" height="260" rx="16" fill="url(#glow)"/>
+<text x="45" y="48" font-size="15" fill="#8ecbff" letter-spacing="4">▸ PAIR-PROGRAMMING LOOP</text>
+<text x="855" y="48" font-size="12" fill="#6b7280" text-anchor="end">prompt → run → fix → repeat</text>
+<line x1="191" y1="134" x2="259" y2="134" stroke="#bfe3ff" stroke-width="3" stroke-dasharray="8 6" class="dash"/><line x1="416" y1="134" x2="484" y2="134" stroke="#bfe3ff" stroke-width="3" stroke-dasharray="8 6" class="dash"/><line x1="641" y1="134" x2="709" y2="134" stroke="#bfe3ff" stroke-width="3" stroke-dasharray="8 6" class="dash"/><g class="n0"><rect x="45" y="86" width="140" height="96" rx="14" fill="#11141b" stroke="#8ecbff" stroke-width="2.5"/>
+<text x="115" y="128" font-size="16" fill="#fff" text-anchor="middle" font-weight="700" letter-spacing="2">IDEA</text>
+<text x="115" y="154" font-size="11" fill="#9ca3af" text-anchor="middle">think in features</text></g><g class="n1"><rect x="270" y="86" width="140" height="96" rx="14" fill="#11141b" stroke="#ff9a62" stroke-width="2.5"/>
+<text x="340" y="128" font-size="16" fill="#fff" text-anchor="middle" font-weight="700" letter-spacing="2">CLAUDE</text>
+<text x="340" y="154" font-size="11" fill="#9ca3af" text-anchor="middle">prompt &amp; generate</text></g><g class="n2"><rect x="495" y="86" width="140" height="96" rx="14" fill="#11141b" stroke="#8ecbff" stroke-width="2.5"/>
+<text x="565" y="128" font-size="16" fill="#fff" text-anchor="middle" font-weight="700" letter-spacing="2">TYPESCRIPT</text>
+<text x="565" y="154" font-size="11" fill="#9ca3af" text-anchor="middle">types catch the bugs</text></g><g class="n3"><rect x="720" y="86" width="140" height="96" rx="14" fill="#11141b" stroke="#8ecbff" stroke-width="2.5"/>
+<text x="790" y="128" font-size="16" fill="#fff" text-anchor="middle" font-weight="700" letter-spacing="2">SHIP</text>
+<text x="790" y="154" font-size="11" fill="#9ca3af" text-anchor="middle">deploy &amp; repeat</text></g>
+<g class="dot"><circle cx="115" cy="134" r="0" fill="#fff"/><circle cx="115" cy="204" r="7" fill="#8ecbff"/></g>
+<line x1="115" y1="204" x2="790" y2="204" stroke="#232834" stroke-width="2"/>
+<text x="450" y="238" font-size="12" fill="#6b7280" text-anchor="middle">ideas &gt; syntax · vibes, but type-checked</text>
+<rect x="1" y="1" width="898" height="258" rx="15" fill="none" stroke="#232834" stroke-width="2"/>
+</svg>
