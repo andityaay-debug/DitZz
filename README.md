@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="DitZz - Frontend Developer from Indonesia" width="100%" />
+  <img src="hero.svg" alt="DitZz - Frontend Developer from Indonesia" width="100%" />
 </p>
 
 <p align="center">
@@ -10,11 +10,11 @@
 </p>
 
 <p align="center">
-  <img src="assets/player.svg" alt="Player card" width="100%" />
+  <img src="player.svg" alt="Player card" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/skills.svg" alt="Skill tree" width="100%" />
+  <img src="skills.svg" alt="Skill tree" width="100%" />
 </p>
 
 ## 🎒 Inventory
@@ -44,5 +44,5 @@
 </p>
 
 <p align="center">
-  <img src="assets/footer.svg" alt="Thanks for visiting" width="100%" />
+  <img src="footer.svg" alt="Thanks for visiting" width="100%" />
 </p>
