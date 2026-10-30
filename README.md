@@ -14,6 +14,12 @@
 </p>
 
 <p align="center">
+  <img src="clawd.gif" alt="Clawd, my sidekick" width="260" />
+  <br />
+  <sub><b>🦀 SIDEKICK UNLOCKED</b> · Clawd, my coding buddy 24/7</sub>
+</p>
+
+<p align="center">
   <img src="skills.svg" alt="Skill tree" width="100%" />
 </p>
 
